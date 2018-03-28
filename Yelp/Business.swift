@@ -68,6 +68,7 @@ class Business: NSObject {
         let ratingImageURLString = dictionary["rating_img_url_large"] as? String
         if ratingImageURLString != nil {
             ratingImageURL = URL(string: ratingImageURLString!)
+            print("ratingImageURL")
         } else {
             ratingImageURL = nil
         }
